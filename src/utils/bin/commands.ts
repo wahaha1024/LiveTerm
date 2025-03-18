@@ -138,7 +138,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
-// Banner
+// Banner0
 export const banner = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
