@@ -141,7 +141,6 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
- ________________________________
 < 多读书，多看报，少吃零食多睡觉 >
  --------------------------------
             \
