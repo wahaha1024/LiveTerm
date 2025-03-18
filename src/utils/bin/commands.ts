@@ -139,8 +139,6 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 // Banner
-export const banner = (args?: string[]): string => {
-  return `
-
-`;
+export const banner = async (args: string[]): Promise<string> => {
+  return new Date().toString();
 };
