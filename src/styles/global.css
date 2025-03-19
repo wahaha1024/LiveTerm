@@ -39,3 +39,8 @@ div#__next > div {
 ::-webkit-scrollbar-thumb:hover {
   background: #ff8037;
 }
+
+body {
+  font-size: 20px; /* 根据需要调整大小 */
+}
+
