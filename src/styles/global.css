@@ -41,6 +41,6 @@ div#__next > div {
 }
 
 body {
-  font-size: 20px; /* 根据需要调整大小 */
+  font-size: 20px !important; /* 根据需要调整大小 */
 }
 
