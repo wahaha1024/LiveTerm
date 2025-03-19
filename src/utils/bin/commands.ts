@@ -140,8 +140,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 // Banner
 export const banner = (args?: string[]): string => {
-  return `
-
+  return String.raw`
       .--..--..--..--..--..--.
     .' \  (`._   (_)     _   \
   .'    |  '._)         (_)  |
@@ -161,8 +160,11 @@ export const banner = (args?: string[]): string => {
    `._.`  '---------------'
            //___\   //___\
              ||       ||
-              ||_.-.   ||_.-.
+    LGB      ||_.-.   ||_.-.
             (_.--__) (_.--__)
+  
+  `;
+};
 
-`;
+
 };
