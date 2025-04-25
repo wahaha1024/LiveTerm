@@ -161,11 +161,11 @@ ____    __    ____  _______  __        ______   ______   .___  ___.  _______
         ║      多读书，多看报，少吃零食多睡觉  ≧◠‿◠≦✌║
         ╚══════════════════════════════════════════════╝             
      +------------------------------------------+
-       |                 <u><a href="https://116.205.124.62:42759/4f8c6eab" target="_blank" style="font-size: 22px;">控制面板</a></u>            |
-       |                 <u><a href="http://116.205.124.62:5244" target="_blank" style="font-size: 22px;">我的仓库</a></u>            |
-       |                 <u><a href="http://116.205.124.62:5700" target="_blank" style="font-size: 22px;">自动脚本</a></u>            |
-       |                 <u><a href="https://notion.vvvae.fun" target="_blank" style="font-size: 22px;">阅读记录</a></u>            |
-       |                 <u><a href="https://nnotion.vvvae.fun" target="_blank" style="font-size: 22px;">读书笔记</a></u>            |
+       |                 <u><a href="https://116.205.124.62:42759/4f8c6eab" target="_blank" style="font-size: 20px;">控制面板</a></u>            |
+       |                 <u><a href="http://116.205.124.62:5244" target="_blank" style="font-size: 20px;">我的仓库</a></u>            |
+       |                 <u><a href="http://116.205.124.62:5700" target="_blank" style="font-size: 20px;">自动脚本</a></u>            |
+       |                 <u><a href="https://notion.vvvae.fun" target="_blank" style="font-size: 20px;">阅读记录</a></u>            |
+       |                 <u><a href="https://nnotion.vvvae.fun" target="_blank" style="font-size: 20px;">读书笔记</a></u>            |
 
      +------------------------------------------+
                   |                 |
