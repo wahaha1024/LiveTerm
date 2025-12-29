@@ -2,6 +2,7 @@
 
 import * as bin from './index';
 import config from '../../../config.json';
+import bookmarks from '../../../bookmarks.json';
 
 // Help
 export const help = async (args: string[]): Promise<string> => {
@@ -139,6 +140,12 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 export const banner = (): string => {
+  const bookmarkLinks = bookmarks
+    .map((bookmark) => {
+      // 使用固定宽度的容器，确保对齐
+      return `        │  ▸ <span style="display: inline-block; width: 400px;"><u><a href="${bookmark.url}" target="_blank" style="font-size: 22px;">${bookmark.name}</a></u></span>│`;
+    })
+    .join('\n');
   return `
 ____    __    ____  _______  __        ______   ______   .___  ___.  _______ 
 \\   \\  /  \\  /   / |   ____||  |      /      | /  __  \\  |   \\/   | |   ____|
@@ -158,19 +165,12 @@ ____    __    ____  _______  __        ______   ______   .___  ___.  _______
                     ⠀⠀⠀⠀⣀⣼⣿⠀⢈⣧
 
         ╔══════════════════════════════════════════════╗
-        ║      多读书，多看报，少吃零食多睡觉  ≧◠‿◠≦✌║
-        ╚══════════════════════════════════════════════╝             
-     +------------------------------------------+
-       |                 <u><a href="https://116.205.124.62:42759/4f8c6eab" target="_blank" style="font-size: 20px;">控制面板</a></u>            |
-       |                 <u><a href="http://116.205.124.62:5244" target="_blank" style="font-size: 20px;">我的仓库</a></u>            |
-       |                 <u><a href="http://116.205.124.62:5700" target="_blank" style="font-size: 20px;">自动脚本</a></u>            |
-       |                 <u><a href="https://notion.vvvae.fun" target="_blank" style="font-size: 20px;">阅读记录</a></u>            |
-       |                 <u><a href="https://nnotion.vvvae.fun" target="_blank" style="font-size: 20px;">读书笔记</a></u>            |
+        ║      多读书，多看报，少吃零食多睡觉  ≧◠‿◠≦✌      ★
+        ╚══════════════════════════════════════════════╝
 
-     +------------------------------------------+
-                  |                 |
-
-
+        ┌─────────────────────────────────────────┐
+${bookmarkLinks}
+        └─────────────────────────────────────────┘
 
   `;
 };
